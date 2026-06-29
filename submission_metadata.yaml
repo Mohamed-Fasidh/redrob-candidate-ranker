@@ -11,7 +11,7 @@ team_members:
     role: "ML Engineer"
 
 github_repo: "https://github.com/Mohamed-Fasidh/redrob-candidate-ranker"
-sandbox_link: "https://huggingface.co/spaces/YOUR_USERNAME/redrob-ranker"
+sandbox_link: "https://colab.research.google.com/github/Mohamed-Fasidh/redrob-candidate-ranker/blob/main/redrob_ranker_demo_colab.ipynb"
 reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
 
 compute:

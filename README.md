@@ -35,6 +35,7 @@ python "D:\Download\[PUB] India_runs_data_and_ai_challenge\[PUB] India_runs_data
 - `submission_metadata.yaml` - portal metadata template filled with this method.
 - `approach_deck.md` - deck content.
 - `approach_deck.pdf` - PDF version of the approach deck.
+- `redrob_template_submission_deck.pptx` - official template filled with the solution.
 - `demo_candidates.jsonl` - 50-candidate sample for sandbox/demo runs.
 - `redrob_ranker_demo_colab.ipynb` - Google Colab sandbox notebook.
 - `requirements.txt` - no third-party dependency required for ranking.
