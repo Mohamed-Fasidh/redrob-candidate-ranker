@@ -1,0 +1,53 @@
+team_name: "india-runs-data-ai"
+
+primary_contact:
+  name: "Mohamed Fasidh"
+  email: "primary@example.com"
+  phone: "+91-XXXXXXXXXX"
+
+team_members:
+  - name: "Mohamed Fasidh"
+    email: "primary@example.com"
+    role: "ML Engineer"
+
+github_repo: "https://github.com/YOUR_USERNAME/redrob-candidate-ranker"
+sandbox_link: "https://huggingface.co/spaces/YOUR_USERNAME/redrob-ranker"
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
+
+compute:
+  platform: "Local Windows machine"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.10"
+  os: "Windows"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+ai_tools_used:
+  - "ChatGPT"
+
+ai_usage_summary: |
+  Used ChatGPT/Codex for local code generation, debugging, and methodology drafting.
+  No candidate data was sent to hosted model APIs during ranking, and the submitted
+  ranker runs offline with deterministic rules.
+
+methodology_summary: |
+  Offline deterministic ranker built directly from the Senior AI Engineer JD.
+  It combines skill/career evidence for production retrieval, ranking, vector
+  search, evaluation, Python, LLM systems, and product-company shipping history
+  with behavioral availability signals such as response rate, recent activity,
+  notice period, interview completion, and open-to-work status. Logistics favor
+  India, Pune/Noida/Delhi NCR/Mumbai/Hyderabad/Bangalore, hybrid/onsite fit,
+  and relocation willingness. Honeypot penalties reduce keyword-heavy
+  non-technical profiles, impossible expert-skill patterns, and inconsistent
+  timelines. The script streams candidates.jsonl once, sorts deterministic
+  scores, and writes the required top-100 CSV with grounded reasoning.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
