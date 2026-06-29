@@ -2,12 +2,12 @@ team_name: "india-runs-data-ai"
 
 primary_contact:
   name: "Mohamed Fasidh"
-  email: "primary@example.com"
-  phone: "+91-XXXXXXXXXX"
+  email: "mohamedfasidh045@gmail.com"
+  phone: "+91-8015334576"
 
 team_members:
   - name: "Mohamed Fasidh"
-    email: "primary@example.com"
+    email: "mohamedfasidh045@gmail.com"
     role: "ML Engineer"
 
 github_repo: "https://github.com/YOUR_USERNAME/redrob-candidate-ranker"
